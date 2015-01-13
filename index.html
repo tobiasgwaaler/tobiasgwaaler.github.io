@@ -3,17 +3,68 @@
 <head>
 	<meta charset="UTF-8">
 	<title>tobiasgw.no</title>
-	<link rel="stylesheet" type="text/css" href="css.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> 
 	<!--
 	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> 
 	 -->
 </head>
-<body>
-	<h1>Bø!</h1>
 
-	<img src="https://avatars0.githubusercontent.com/u/185814?s=200" />
- 
-	
+<style>
+  body {
+  font-family: lato;
+  background-color: #F5F5F5;
+  color: #3A3A3A;
+  }
+
+  h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 60px;
+  }
+
+  .wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  }
+
+  a {
+  color: #3A3A3A;
+  }
+
+  li {
+  font-size: 25px;
+  margin: 5px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  ul li:before
+  {
+  content: '\2751';
+  
+  margin: 0 1em;
+  }
+
+  .strike {
+  text-decoration: line-through;
+  }
+</style>
+
+<body>
+  <div class="wrap">
+	<h1>Tobias G. Waaler</h1>
+
+	<ul id="list">
+	  <li>Lives in Oslo</li>
+	  <li>Enthusiastic <a href="https://github.com/tobiasgwaaler/">programmer</a></li>
+	  <li><a href="https://linkedin.com/in/tobiasgw">Works</a> for a <a href="https://bekk.no">consulting firm</a></li>
+	  <li>Interested in programming languages, such as <a href="www.meetup.com/Oslo-Haskell/">Haskell</a></li>
+	  <li>Gets worked up about <span class="strike">silly</span> business ideas</li>
+	  <li>Maker of <a href="#list">lists</a></li>
+	</ul>
+  </div>
 </body>
 </html>
